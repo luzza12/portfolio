@@ -3,7 +3,7 @@
 body {
 	background: linear-gradient(to right bottom, #80d0c7, #13547a);
 	background-attachment: fixed;
-	color: #354538;
+	color: #d4d4d4;
 }
 
 ::-webkit-scrollbar {
@@ -34,7 +34,7 @@ a:hover {
 
 /* Sidebar */
 .sidebar {
-	background-color: white;
+	background-color: #212121;
 	height: 100%;
 	border-radius: 7px;
 	padding: 25px 15px;
@@ -54,6 +54,10 @@ a:hover {
 	height: 25px;
 }
 
+.sidebar-social-icons a {
+	color: white;
+}
+
 .sidebar-name {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	margin: 20px 0 10px 0;
@@ -61,7 +65,7 @@ a:hover {
 }
 
 .sidebar-name > span {
-	color: #13547a;
+	color: #f8cf40;
 	font-weight: 600;
 }
 
@@ -82,13 +86,14 @@ a:hover {
 
 .download {
 	padding: 10px 10px;
-	background-color: rgb(209, 209, 209);
+	background-color: #333;
 	border-radius: 4px;
+	color: white;
 	margin: 10px 0;
 }
 
 .download:hover {
-	background-color: #13547a;
+	background-color: #f8cf40;
 	color: white;
 }
 
@@ -97,27 +102,27 @@ a:hover {
 }
 
 .sidebar-contact {
-	background-color: #e9e9e9;
+	background-color: #333;
 	padding: 2px 0;
 }
 
 .sidebar-email {
-	background: linear-gradient(to right bottom, #80d0c7, #13547a);
+	background: #f8cf40;
 
 	border-radius: 20px;
-	color: #fff;
+	color: #212121;
 	margin: 15px 25px 0px;
 	cursor: pointer;
-	transition: all 3s linear;
+	transition: all 0.3s linear;
 }
 
 .sidebar-email:hover {
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 
 /* Main */
 .app-main {
-	background-color: white;
+	background-color: #212121;
 	border-radius: 7px;
 	padding: 25px 15px;
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
@@ -131,14 +136,14 @@ a:hover {
 .navbar-active {
 	font-size: 2rem;
 	font-weight: 700;
-	color: #353532;
-	border-bottom: 2px solid #353532;
+	color: #d4d4d4;
+	border-bottom: 2px solid #f8cf40;
 }
 
 .navbar-item {
 	margin-right: 20px;
 	text-decoration: none;
-	color: #353532;
+	color: #f8cf40;
 	font-size: 1rem;
 	font-weight: normal;
 	cursor: pointer;
@@ -164,19 +169,18 @@ a:hover {
 }
 
 .about-container {
-	background-color: #dbdddf;
 	padding: 30px 20px;
 }
 
 .about-heading {
 	font-size: 25px;
 	font-weight: 700;
-	color: #335533;
+	color: #d4d4d4;
 }
 
 /* Skill Card */
 .skill-card {
-	background-color: #fff;
+	background-color: #333;
 	margin: 10px;
 	padding: 10px;
 	display: flex;
@@ -196,7 +200,7 @@ a:hover {
 .skill-content {
 	margin: 0;
 	font-size: 0.9rem;
-	color: #13547a;
+	color: #d4d4d4;
 }
 
 /* resume */
@@ -210,7 +214,7 @@ a:hover {
 	margin-left: 10px;
 	font-size: 1.8rem;
 	font-weight: 700;
-	color: #354538;
+	color: #d4d4d4;
 }
 
 .resume-body {
